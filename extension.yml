@@ -1,0 +1,29 @@
+schema_version: "1.0"
+
+extension:
+  id: "featcomp"
+  name: "Feature Completion Tracker"
+  version: "1.0.0"
+  description: "Track feature completion with status headers and a central registry"
+  author: "Jesse Smith"
+  repository: "https://github.com/jesse-smith/spec-kit-featcomp"
+  license: "MIT"
+  homepage: "https://github.com/jesse-smith/spec-kit-featcomp"
+
+requires:
+  speckit_version: ">=0.1.0"
+  commands:
+    - "speckit.tasks"
+
+provides:
+  commands:
+    - name: "speckit.featcomp.complete"
+      file: "commands/complete.md"
+      description: "Mark a feature as complete after merging to main"
+      aliases: ["speckit.complete"]
+
+tags:
+  - "tracking"
+  - "completion"
+  - "workflow"
+  - "feature-lifecycle"
