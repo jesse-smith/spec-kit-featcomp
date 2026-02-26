@@ -32,7 +32,10 @@ Each spec document gets a blockquote header after its first heading:
 ## Installation
 
 ```bash
-# From local clone
+# From GitHub release
+specify extension add --from https://github.com/jesse-smith/spec-kit-featcomp/archive/refs/tags/v1.0.0.zip
+
+# Or from local clone (for development)
 git clone https://github.com/jesse-smith/spec-kit-featcomp
 specify extension add --dev spec-kit-featcomp/
 ```

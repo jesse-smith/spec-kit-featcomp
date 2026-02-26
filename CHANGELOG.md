@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2026-02-11
 
+Initial production release.
+
 ### Added
 
 - `speckit.featcomp.complete` command (alias: `speckit.complete`)
@@ -16,3 +18,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `check-tasks-complete.sh` script with `--json` and `--quiet` modes
 - STATUS.md template for new projects
 - Documentation for optional hookify merge reminder
+
+[1.0.0]: https://github.com/jesse-smith/spec-kit-featcomp/releases/tag/v1.0.0
