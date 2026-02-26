@@ -40,6 +40,17 @@ git clone https://github.com/jesse-smith/spec-kit-featcomp
 specify extension add --dev spec-kit-featcomp/
 ```
 
+### Migrating from Dev to Release
+
+If you previously installed with `--dev`, remove the dev version first and then install from the release:
+
+```bash
+specify extension remove featcomp
+specify extension add --from https://github.com/jesse-smith/spec-kit-featcomp/archive/refs/tags/v1.0.0.zip
+```
+
+This does not affect your project's `specs/` directory or any existing `STATUS.md` data — only the extension files under `.specify/extensions/featcomp/` are replaced.
+
 ## Usage
 
 After merging a feature branch:
